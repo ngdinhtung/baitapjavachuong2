@@ -36,7 +36,10 @@ public class sanpham {
         this.donGia = donGia;
         this.giamGia = giamGia;
     }
-
+    
+    public sanpham() {
+    }
+    
     public sanpham(String tenSp, double donGia) {
         this(tenSp, donGia, 0);
     }
@@ -66,7 +69,7 @@ public class sanpham {
     }
 
     public static void main(String[] args) {
-        // bai 1 2 : trước khi chạy cần bỏ private ở khai báo dữ liệu và tắt note bài khác
+        // bai 1 2 :
         // sanpham sp1 = new sanpham();
         // sp1.nhap();
         // sp1.xuat();
@@ -77,7 +80,7 @@ public class sanpham {
         // sp2.xuat();
         // System.out.println("Thuế nhập khẩu: " + sp2.getThueNhapKhau());
 
-        // bai 3 : trước khi chạy cần bỏ private ở khai báo dữ liệu và tắt note bài khác
+        // bai 3 : 
         // sanpham sp1 = new sanpham("Chanh", 5000, 100);
         // sanpham sp2 = new sanpham("Xả", 3000);
         // System.out.println("--------------------------####");
